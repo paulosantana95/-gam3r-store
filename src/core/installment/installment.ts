@@ -1,4 +1,4 @@
-export default interface InstallmentPlan {
+export default interface Installment {
   totalValue: number
   installmentValue: number
   numberOfInstallments: number

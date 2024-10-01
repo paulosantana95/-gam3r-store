@@ -1,12 +1,12 @@
 import { MAX_NUMBER_OF_INSTALLMENTS, MIN_NUMBER_OF_INSTALLMENTS, MONTHLY_INTEREST_RATE } from "../constants"
-import InstallmentPlan from "./installment"
+import Installment from "./installment"
 
 export default class InstallmentCalculator {
   execute(
     value: number,
     numberOfInstallments: number = MAX_NUMBER_OF_INSTALLMENTS,
     interestRate: number = MONTHLY_INTEREST_RATE
-  ): InstallmentPlan 
+  ): Installment 
   {
     if(
       numberOfInstallments < MIN_NUMBER_OF_INSTALLMENTS || numberOfInstallments > MAX_NUMBER_OF_INSTALLMENTS

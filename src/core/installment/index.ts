@@ -1,5 +1,5 @@
 import InstallmentCalculator from "./installment-calculator"
-import InstallmentPlan from "./installment"
+import Installment from "./installment"
 
 export { InstallmentCalculator }
-export type { InstallmentPlan }
+export type { Installment }
