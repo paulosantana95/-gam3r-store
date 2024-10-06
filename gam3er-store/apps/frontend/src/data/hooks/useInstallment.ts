@@ -1,6 +1,6 @@
 import { InstallmentCalculator } from "@gstore/core";
 
-export function useInstallment(
+export default function useInstallment(
   value: number, 
   quantity: number = 12
 ) 
