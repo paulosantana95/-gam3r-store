@@ -20,7 +20,7 @@ export default class ShoppingCart {
         return new ShoppingCart(this.changeItemQuantity(this.items, product, -1))
     }
 
-    removerProduct(product: Product) {
+    removeProduct(product: Product) {
         const item = this.itemPerProduct(product)
         if (!item) return this
 

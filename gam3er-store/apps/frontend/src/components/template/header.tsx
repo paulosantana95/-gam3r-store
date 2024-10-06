@@ -1,12 +1,12 @@
-// interface HeaderProps { }
+'use client'
 
 import Link from "next/link";
 import { Logo } from "../shared/logo";
 import { CartButton } from "../shared/cartButton";
+import useShoppingCart from "@/data/hooks/useShoppingCart";
 
 export function Header() {
-  const quantityItems = 0
-  // const {} = useCart()
+  const { quantityItems } = useShoppingCart()
 
   return (
     <div
